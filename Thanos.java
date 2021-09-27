@@ -33,6 +33,7 @@ public class Thanos {
 				return orig.getName().compareTo(compare.getName());  
 			}
 		};
+		
 		Map<Hero, Flower> party = new TreeMap<>(comparator);
 		party.put(scarletWitch, rose);
 		party.put(thor, rose);
